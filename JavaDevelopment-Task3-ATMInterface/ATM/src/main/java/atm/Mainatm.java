@@ -295,8 +295,8 @@ public class Mainatm {
         // Step 2: Seed Mock Account Data for Testing
         // User 1: ID = user123, PIN = 1234, Initial Balance = $1000.00
         // User 2: ID = user456, PIN = 5678, Initial Balance = $500.00
-        bank.addAccount(new Account("Kaushal", "1234", 1000.00));
-        bank.addAccount(new Account("Soni", "5678", 500.00));
+        bank.addAccount(new Account("Arun", "1234", 1000.00));
+        bank.addAccount(new Account("Raju", "5678", 500.00));
 
         // Step 3: Launch ATM Simulation
         ATM atm = new ATM(bank);
